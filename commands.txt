@@ -1,0 +1,6 @@
+For trng_voice (using .wav as input):
+ python3 trng_voice.py --mode file --infile voice.wav  
+For wav-hexstream (getting hex):
+ python3 wav-hexstream.py file2hex voice.wav voice.hex  
+For wav-hexstream (getting restored audio file): (will only work after producing hex file)
+ python3 wav-hexstream.py hex2file voice.hex restored_voice.wav 
